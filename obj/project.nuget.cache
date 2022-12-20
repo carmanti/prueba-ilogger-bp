@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "95ciHtEGpxMOhzR3gFMdw1b8RGdtf7rXW+GJeR8pTGFST30+qal05hNW6WtSFkyMbtJK/L8ItV/afQnUUZKP4A==",
+  "dgSpecHash": "EezO+blo6hlLsCD0UyIsSue1+nR4NFTjF3RaiFqzVMCQpJAK7272C5HtiKYied6eWpCjjeKleo0K134SfruLMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jose_\\Documents\\workSpace\\dotnet\\prueba-ilogger-bp\\prueba-ilogger-bp.csproj",
+  "projectFilePath": "C:\\Users\\jose_\\Documents\\spaceWork\\dotnet\\prueba-ilogger-bp\\prueba-ilogger-bp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jose_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\jose_\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

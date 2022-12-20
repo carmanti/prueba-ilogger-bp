@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using prueba_ilogger_bp.Services;
 
 namespace prueba_ilogger_bp.Controllers;
 
@@ -6,11 +7,18 @@ namespace prueba_ilogger_bp.Controllers;
 [Route("[controller]")]
 public class UserController : ControllerBase
 {
-    [HttpGet]
-    public ActionResult<string> GetEncryptedCedula()
+    private readonly IUserServices services;
+
+    public UserController(IUserServices services)
     {
-        var cedula = "161616166";
-        var cedulaEncrypted = System.Text.Encoding.UTF8.GetBytes(cedula);
-        return Convert.ToBase64String(cedulaEncrypted);
+        this.services = services;
+    }
+
+    [HttpGet]
+    public string GetUser([FromQuery] string cedula)
+    {
+        // var cedula = "161616166";
+        // var cedulaEncrypted = System.Text.Encoding.UTF8.GetBytes(cedula);
+        return services.GetUser(cedula);
     }
 }
